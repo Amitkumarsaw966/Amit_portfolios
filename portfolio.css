@@ -1,0 +1,570 @@
+
+    @font-face {
+        font-family: MetropolisRegular;
+        src: url('./Contant/Metropolis\ Font\ family/Metropolis-Regular.otf')
+    }
+    body{
+        font-family: sans-serif;
+    }
+    .nav_bar{
+        background-color: #3b7c7e;
+        margin: -8px;
+        padding: 22px;
+        box-shadow: 1px 2px 14px;
+        position: fixed;
+        width: 100%;
+    }
+    .nav_barlist{
+        display:flex;
+        justify-content: space-evenly;
+        list-style: none;
+        cursor: pointer;
+        font-family:  sans-serif;
+        
+    }
+    
+    /* html{
+        background-color:#1b2c31;
+        
+    } */
+    .nav_baritems{
+        font-size: medium;
+        font-weight: bold;
+        color: white;
+    
+    }
+    .nav_baritems:hover{
+        color: tomato;
+    }
+    
+    
+    .home_Page{
+        display: flex;
+        gap: 12%;
+        /* margin-top: 7%; */
+        padding: 44px;
+        background-color:#1b2c31;
+        margin: 8px -8px;
+        padding: 108px;
+        padding-bottom: 108px;
+        padding-top: 195px;
+    
+    }
+    .first_page_pic{
+        border-radius: 50%;
+        height: 327px;
+        border-style: hidden;
+        box-shadow: 12px 7px 12px;
+        
+    }
+    .name{
+        color: tomato;
+    }
+    .icons1{
+       top:-50px; 
+       left:-35px; 
+       cursor: pointer; 
+       
+    }
+    .icons1:hover{
+        transform: scale(2);
+    }
+    h2{
+        color: white;
+    
+    }
+    h1{
+        font-family: sans-serif ;
+        color: white;
+    }
+    .icons_list{
+        display: flex;
+        gap: 4%;
+        list-style: none;
+        margin-left: -24px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: goldenrod;
+    }
+    
+    .button{
+        text-decoration: none;
+        color: black;
+    }
+    .resume_button{
+        
+        border-style: solid;
+        background-color: cadetblue;
+        border-color: white;
+        border-width: medium;
+        border-radius: 7px;
+        padding: 19px;
+        max-height: 56px;
+    }
+    .resume_button:hover{
+        border-color: tomato;
+        cursor: pointer;
+    }
+    
+    .contact_button{
+        
+        border-style: solid;
+        border-width: medium;
+        background-color: tomato;
+        border-color: white;
+        border-radius: 7px;
+        padding: 19px;
+    }
+    .contact_button:hover{
+        border-color: brown;
+        background-color: white;
+        cursor: pointer;
+    }
+    .resume,.contact{
+          font-size: 15px;
+          font-weight: bold;
+    }
+    .about_me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_me{
+        color: black;
+        font-weight: bolder;
+        font-size: 56;
+    }
+    .why_choose_me{
+        color: black;
+    }
+    .why_choose_me::before{
+       content: " ";
+    }
+    .why_choose_me::after{
+     content: " ";
+     
+    }
+    
+    
+    .button{
+        display: flex;
+        gap: 26px;
+    }
+    
+    .about_section{
+        margin: -8px;
+        /* background-color: lightskyblue; */
+        padding-bottom: 4.6%;
+    }
+    .box_div{
+        display: flex;
+        gap: 12px;
+        margin: 40px 180px 0px 180px;
+        box-shadow: 0px 0px 28px;
+    
+    
+    }
+    .data{
+        display: flex;
+    }
+    .page_2image{
+        height: 99vh;
+    }
+    
+    .description{
+        line-height: 27px;
+        word-spacing: 7px;
+        font-family: sans-serif;
+    }
+    .ul_list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-family: sans-serif;
+        list-style: none;
+    }
+    .Highlight{
+        font-weight: bolder;
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+    .icon{
+        margin-right: 12px;
+        margin-left: -34px;
+    }
+    .about_section_button{
+        display: flex;
+        gap: 12px;
+        /* height: 20px; */
+        height: 4vh;
+        margin: 57px 0px 0px 20px;
+        
+    }
+    .hire_button{
+        background-color: tomato;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: black;
+        align-items: center;
+        cursor: pointer;
+        color:black
+    
+    
+    }
+    .hire_button:hover{
+    
+        background-color: white;
+    }
+    .resume_button2:hover{
+        background-color: white;
+    }
+    .resume_button2{
+        background-color: tomato;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: black;
+        align-items: center;
+        cursor: pointer;
+        color:black
+    }
+    .resume_2{
+    
+        padding: 0px 28px 0px 28px;
+    }
+    .hire_me{
+        padding: 0px 28px 0px 28px;
+    
+    }
+    .eduaction_detail{
+        background-color: #3a5556;
+        margin: -8px;
+        height: 71vh;
+        padding: 8vh 0vh 17vh 0vh;
+    }
+    .education{
+        /* color: black; */
+        color: white;
+        font-weight: 900;
+    }
+    .education_header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .school{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    
+    }
+    .row1{
+        display: flex;
+        gap: 12px;
+        margin-top: 44px;
+        margin-left: 139px;
+        gap: 95vh;
+    }
+    .row2{
+        display: flex;
+        gap: 12px;
+        margin-top: 44px;
+        margin-left: 139px;
+        gap: 108vh;
+    }
+    .row3{
+        display: flex;
+        gap: 12px;
+        margin-top: 44px;
+        margin-left: 139px;
+        gap: 104vh;
+    }
+    
+    .tomato{
+        font-family: sans-serif;
+        color: #ff3e1c;
+        font-size: larger;
+    }
+    .location{
+        font-family: sans-serif;
+        font-size: 15px;
+        color: white;
+    }
+    .year_span{
+        background-color: tomato;
+        padding: 15px  3px 3px 10px;
+        border-radius: 12px;
+        color: white;
+    }
+    .year{
+        margin-top: 16px;
+    }
+    
+    .skills{
+        display: flex; 
+        gap: 45vh;
+        margin-top: 8vh;
+        height: 90vh; 
+    }
+    .skills_list1{
+        display: flex;
+        flex-direction: column;
+        gap: 37px;
+        margin-top: 12px;
+    }
+    .skill_span{
+        font-size: 67px;
+        margin-left: 95px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .list_div{
+        background-color: white;
+        height: 23px;
+        width: 71vh;
+        border-style: solid;
+        border-color: tomato;
+        border-radius: 5px;
+    }
+    .skill_image{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .Skill_list{
+        font-size: x-large;
+        font-family: sans-serif;
+    }
+    
+    .progress_java{
+        background-color: tomato;
+        padding: 2.4px;
+        width: 56vh;
+        text-align: right;
+    }
+    .precentage{
+        font-weight: bold;
+    }
+    .progress_Mysql{
+        background-color: tomato;
+        padding: 2.4px;
+        width: 29vh;
+        text-align: right;
+    }
+    .progress_html5{
+        background-color: tomato;
+        padding: 2.4px;
+        width: 52vh;
+        text-align: right;
+    }
+    .progress_css{
+        background-color: tomato;
+        padding: 2.4px;
+        width: 52vh;
+        text-align: right;
+    }
+    .progress_reactjs{
+        background-color: tomato;
+        padding: 2.4px;
+        width: 42vh;
+        text-align: right;
+    }
+    .progress_javascript{
+        background-color: tomato;
+        padding: 2.4px;
+        width: 48vh;
+        text-align: right;
+    }
+    .project{
+        background-color: #3a5556;
+        margin: -8px;
+        
+        
+    }
+    .project_name_year{
+        display: flex;
+        gap: 104vh;
+    }
+    .project1{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 10vh;
+    
+    }
+    .project_Name{
+        font-size: 29px;
+        color: tomato;
+    
+    }
+    .technology_Used{
+        font-weight: bold;
+        color: white;
+        font-size: larger;
+    }
+    .project_detail{
+         color: white;
+         font-size: large;
+    
+    }
+    .project_year{
+        background-color: tomato;
+        padding: 7px 35px 2px 34px;
+        border-radius: 28px 
+    }
+    .project2{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 10vh;
+    
+    }
+    .contact_header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Let_s_Keep_in_Touch{
+        border-bottom: solid;
+        border-top: solid;
+        padding: 12px;
+        border-width: 1px;
+    }
+    .email_form{
+        display: flex;
+        gap: 20vh;
+        width: 169vh;
+        border-style: hidden;
+        padding: 9px;
+        height: 61vh;
+        margin-top: 57px;
+        margin-left: 25vh;
+        background-color: #3b7c7e;
+        border-radius: 12px;
+        box-shadow: 1px 1px 17px #3b7c7e;
+        margin-bottom: 50px;
+    }
+    .Form{
+        display: flex;
+        flex-direction: column;
+        gap:17px;
+        margin-left: 26px;
+        margin-right: -20px;
+        margin-top: 12px;
+    
+    }
+    
+    .input{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .mail_image{
+        height: 35vh;
+        width: 66vh;
+        border-radius: -9px;
+        margin-left: 15px;
+    }
+    .Get_in_Touch{
+        font-size: 29px;
+        color: white;
+        margin-left: 10px;
+    }
+    .email_image{
+        margin-top: 7vh;
+    }
+    .input_text{
+        height: 6vh;
+        width: 48vh;
+        border-style: hidden;
+        box-shadow: 0px 0px 5px;
+        border-radius: 6px;
+        padding-left: 9px;
+    }
+    .form_div{
+        margin: 12px 12px 12px 0px;
+        background-color: white;
+        padding: 3px 106px 2px 65px;
+        border-style: hidden;
+        border-radius: 12px;
+    }
+    .send_button{
+        width: 144px;
+        height: 39px;
+        margin-top: 20px;
+        margin-left: 76px;
+        background-color: tomato;
+        border-style: hidden;
+        border-radius: 21px;
+        color: white;
+    }
+    .send_button:hover{
+       
+        border-color: #ff3e1c;
+        border-style: solid;
+        border-width: 3px;
+        cursor: pointer;
+    }
+    .animated-text{
+          font-size: 34px;
+          font-weight: 600;
+          min-width: 280px;
+    }
+    .animated-text span{
+        position: relative;
+    }
+    .animated-text span::before{
+        content: "Student";
+        color: #ff7f50;
+        animation: words 20s infinite ;
+    
+    }
+    .animated-text span::after{
+        content: "";
+        position: absolute;
+        width: calc(100% + 8px);
+        height: 100%;
+        background-color: #1b2c31;
+        border-left: 2px solid #ff7f50;
+        right: -8px;
+        animation:cursor .8s infinite,typing 20s steps(13) infinite;
+        
+    
+    }
+    @keyframes cursor{
+        to{
+            border-left: 2px solid #ff7f5000 ;
+        }
+    }
+    
+    @keyframes words{
+        0%,20%{
+            content: "NAVDEEP";
+        }
+        21%,40%{
+            content: "FRONT END DEVELOPER";
+        }
+        41%,60%{
+            content: "FRESHER";
+        }
+        61%,80%{
+            content: "Degreeholder";
+        }
+        81%,100%{ 
+            content: "Gamer";
+        }
+    
+    }
+    
+    @keyframes typing{
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width:0;
+        }
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        } 
+    
+    } 
+    
+    
